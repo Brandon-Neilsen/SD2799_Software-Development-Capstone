@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>League Fan Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="brandon neilsen" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap Necessary links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Styling -->
+    <style>
+        body{
+            background-color:red;
+            margin:2px;
+            border:5px solid black;
+        }
+        .trending{
+            width:100%
+        }
+        #trend_div h4{
+            text-decoration:underline
+        }
+        .jumbo_nav{
+            list-style-type:none
+        }
+        .jumbo_nav li{
+            display:inline
+        }
+    </style>
+    <!-- End Styling -->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>This is placeholder text.</h1>
+            <nav class="navbar navbar-default">
+                <ul class="jumbo_nav">
+                    <li><a href="new_user_reg.html" class="btn btn-default" role="button">Sign Up</a></li>
+                    <li><a href="login.html" class="btn btn-default" role="button">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="trend_div" class="row">
+            <!-- Here would be the latest trending pictures. Fan art hard coded for placeholders -->
+            <div id="trend_pic" class="col-md-6">
+                <h2>Trending Pictures</h2>
+                <div id="fstImg">
+                    <h4>SKT T1 Championship Concept Art</h4>
+                    <img class="trending" src="trending_pictures/skt t1 2015 skins.jpg"/>
+                    <p>Here would be a preview of the description of the image, up to 200 characters.</p>
+                </div>
+                <div id="scdImg">
+                    <h4>Ekko Cosplay</h4>
+                    <img class="trending" src="trending_pictures/ekko cosplay.jpg" />
+                    <p>Here would be a preview of the description of the image, up to 200 characters.</p>
+                </div>
+                <div id="thdImg">
+                    <h4>Hextech Annie</h4>
+                    <img class="trending" src="trending_pictures/hextech annie.jpg"/>
+                    <p>Here would be a preview of the description of the image, up to 200 characters.</p>
+                </div>
+            </div>
+            <!-- Here would be the latest trending videos. Youtube videos are used as placeholders -->
+            <div id="trend_vid" class="col-md-6">
+                <h2>Trending Videos</h2>
+                <div id="fstVid">
+                    <h4>Braumix by League Community</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zYd8D804bT0" frameborder="0" allowfullscreen></iframe>
+                    <p>Here would be a preview of the description of the video, up to 200 characters.</p>
+                </div>
+                <div id="scdVid">
+                    <h4>/ALL Chat - 03/04/2016</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3pZS6NlLkjk" frameborder="0" allowfullscreen></iframe>
+                    <p>Here would be a preview of the description of the video, up to 200 characters.</p>
+                </div>
+                <div id="thdVid">
+                    <h4>uLoL Documentary</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/feLIXyoDzz4" frameborder="0" allowfullscreen></iframe>
+                    <p>Here would be a preview of the description of the video, up to 200 characters.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Problem w/ CSS
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-footer">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    -->
+</body>
+</html>
